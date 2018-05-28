@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实例化多个vue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+
+</head>
+<body>
+
+<h1>初始化多个vue实例对象</h1>
+<div id="vue-app-one">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+</div>
+
+<div id="vue-app-two">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+    <button v-on:click="changeTitle">change app one title</button>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
